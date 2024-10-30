@@ -1,0 +1,3 @@
+How to we have students interest in School Club
+
+ We'll have students vote for their interest. Each student will vote one topic or interests like video games, robotics, fantasy, or Science fiction. If each vote gets high or closer, will declare a club. If a club has zero votes, The club will be rejected. For our homepage I'll write the title, the title will be the school name and last clubs. After all votes selected; clubs will be added to our home page. Each club will have name, description, and name of the club president.       
