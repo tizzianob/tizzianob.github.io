@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*the picture background*/
+body{
+    background-color: rgb(4, 0, 250);
+    font-family: Arial, sans-serif;
+    }
+
+.text{
+    text-decoration: gold;
+}
+/*bottom background*/
+header{
+    background-color:gold;
+    padding: 1.6rem 4.8rem;
+    display: flex;
+}
+/*header image*/
+header img {
+align-items: left;
+height: 30px;
+padding-top: 8px;
+}
+.hobby{
+        background-color: gold;    
+}

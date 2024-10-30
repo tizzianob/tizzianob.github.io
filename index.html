@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+     Tizziano Britez
+     index.html
+      10/3/24
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Webpage</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="brand-logo-a-tag">
+            <!-- <img src="" alt="Brand logo"> -->
+            <img src="raygun.png">  <span class="brand-logo-name">TIZZIANO E. BRITEZ</span>
+        </a>
+
+        <nav class="navbar">
+            <ul class="navbar-lists" id="myTopnav">
+                <li>
+                  <i class="fas fa-home"></i>
+                  <a class="navbar-link home-link" href="#">&#9762;Home</a>
+                </li>
+                <li>
+                  <i class="fas fa-user"></i>
+                  <a href="index2.html" href="#">&#9762;About Me</a>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <a class="navbar-link contact-link" href="#">&#9762;Notes</a>
+                </li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">
+                      Course Work 
+                      <i class="fas fa-caret-down"></i>
+                      </button>
+                    <div class="dropdown-content">
+                        <a href="index3.html" class="navbar-link">
+                        <i class="fas fa-newspaper"></i>
+                        Chap1: Intro
+                        </a>
+                        <a href="./chap2/index.html" class="navbar-link">
+                          <i class="fas fa-newspaper"></i>
+                          Chap2: Template
+                          </a>
+                        <a href="./chap3/index.html" class="navbar-link">
+                        <i class="fas fa-newspaper"></i>
+                        Chap3: Images
+                        </a>
+                        <a href="./chap4/index.html" class="navbar-link">
+                        <i class="fas fa-newspaper"></i>
+                        Chap4: CSS
+                        </a>
+                        <a href="./chap5/index.html" class="navbar-link">
+                            <i class="fas fa-newspaper"></i>
+                        Chap5: RESPONSIVE 1
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+            <a href="javascript:void(0);" 
+               class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+        
+           
+        
+        <footer>
+            <p>Designed by Tizziano Britez</p>
+        </footer>
+
+    <script src="./javascript/app.js"></script>
+</body>
+</html>
