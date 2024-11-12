@@ -1,0 +1,158 @@
+/* CSS Reset */
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+/* Style rule for body and images */
+body{
+   font-family: "Lora", serif;
+   background-color: #f6eee4;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for mobile viewport */
+/* Style rules to show mobile class and hide tab-desk class */
+.mobile h1{
+   padding: 2%;
+   text-align: center;
+   font-style: "Emblema One";
+}
+.mobile h3{
+  padding: 2%;
+  text-align: center;
+  font-style: "Lora"
+}
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora&display=swap');
+/* Style rule for navigation area */
+nav{
+    background-color: #2a1f14;
+}
+/* Style rule for nav ul */
+nav ul{
+    text-align: center;
+}
+/*Style rule for nav li */
+nav li{
+    border: 0.5px, #f6eee4;
+    display: block;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+nav li{
+    display: block;
+    color: #f6eee4;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+/* Style rule for main content */
+main{
+    padding: 2%;
+    font-family: "Lora";
+}
+/* Style rule for main p */
+main p{
+    font-size: 1.25em;
+}
+/* Style rule for main h3 */
+main h3{
+    padding: 2%;
+}
+/* Style rule fot main ul */
+main ul{
+    list-style-type: square;
+}
+/* Style rule for class link */
+a{
+   color: antiquewhite;
+}
+.link{
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+/* Style rule for class action */
+.action{
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+.round{
+    border-radius: 6px;
+}
+#info ul{
+    margin: 10%;
+}
+.tel-link{
+    padding: 2;
+    width: 80;
+    margin: 0 auto;
+}
+/* Style rule for id */
+.id{
+    text-align: center;
+}
+/* Style rules for footer content */
+footer{
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2a1f14;
+    color: #f6eee4;
+    padding: 1% 0%;
+}
+footer a{
+    color: #f3e6d8;
+    text-decoration: none;
+}
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 769px), print {
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+/*Tablet Viewport: Show tab-desk class, hide mobile class */
+.tab-desk{
+    display: block;
+}
+aside{
+ text-align: center;
+ font-size: 1.5em;
+ font-weight: bold;
+ text-shadow: 4px 4px 10px #c5a687;
+ grid-column: 1/ span 2;
+}
+figure{
+  border: 4px solid #2a1f14;
+  box-shadow: 6px 6px 10px #c5a687;
+  max-width: 400px;
+  margin: 2%;
+}
+
+figcaption{
+  padding: 2%;
+  border-top: 4px solid #2a1f14;  
+}
+.grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px
+}
+aside{
+    grid-column: 1/span 3;
+    font-size: 2em;
+}
+.grid{
+    grid-template-columns: repeat(4, 1fr);
+    }
+aside{
+    grid-column: 1/ span 4;
+    font-size: 3em;
+}
