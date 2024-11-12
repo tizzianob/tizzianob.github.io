@@ -1,0 +1,114 @@
+/*
+     Tizziano Britez
+	 9/15/24
+	 styles.css
+	
+*/
+/* CSS Reset */
+body, header, nav, main, footer, img h1 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+/* Style rule for images */
+img {
+	 max-width: 100%;
+	 max-height: 100%;
+	 display: block;
+}
+/* Main style rules for the Roboto */
+header {
+	  text-align: center;
+	  font-size: 1.5em;
+	  color: #373684;
+}
+header h1 {
+	  font-style: "DM Serif Display", serif;
+}
+/* Style rules for navigation area */
+nav{
+	background-color: #373684;
+}
+nav ul {
+	 list-style-type: none;
+	 text-align: center;
+}
+nav li {
+	 display: block;
+	 border-top: 1px solid #e5e9fc;
+	 font-size: 2em;
+}
+nav li a {
+	  display: block;
+	  color: #fff;
+	  text-align: center;
+	  padding: 0.5em 1em;
+	  text-decoration: none;
+}
+/* Style rules for ul selector */
+ul{
+	padding: 0;
+	list-style: none;
+}
+/* Style rules for main content */
+main {
+	padding: 2%;
+	background-color: #e5e9fc;
+	overflow: auto;
+	font-family: "Roboto", sans-serif;
+}
+main p {
+	font-size: 1.25em;
+}
+.action {
+	font-size: 1.25em;
+	color: #373684;
+	font-weight: bold;
+}
+#info {
+	clear: left;
+	background-color: #c0caf7;
+	padding: 1% 2%;
+}
+#info ul{
+	margin-left: 10%;
+}
+.round{
+	border-radius: 8%;
+}
+#contact .email-link{
+	color: #ffffff;
+	background-color: #373684;
+	text-decoration: none;
+	font-weight: bold;
+}
+.tel-link{
+	background-color: #373684;
+	padding: 2%;
+	margin: 0% auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px; 
+}
+.tel-link a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+.map {
+width: 95%;
+height: 50%
+}
+/* Style rules for footer content */
+footer { 
+        text-align: center;
+		font-size: 0.65em;
+		clear: left;
+}
+/* Style rules for mobile viewport */
+/* Hide tab-desk class */
+.tab-desk{
+	display: none;
+}

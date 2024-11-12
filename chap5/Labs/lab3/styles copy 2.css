@@ -1,0 +1,35 @@
+/* CSS reset */
+*{
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+}
+/* Color background */
+body{
+    background-color: darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+nav{
+    background-color: black;
+}
+
+li{
+    border: 100%;
+}
+/* Big logo */
+h1{
+color: darkgreen;
+}
+/* bottom email and copyright */
+footer{
+    background-color: black;
+}
+p{
+    color: black;
+}
+
+.p1{
+    color:darkgreen;
+}
+

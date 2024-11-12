@@ -1,0 +1,95 @@
+/* CSS Reset */
+ *  { 
+     margin: 0;
+     padding: 0;  
+     border: 0;
+}
+/* Style rule for body and image */
+  body{background-color: #e3eaf8}
+
+   img{max-width: 100%} 
+   
+/* Style rule for header content */   
+  header h1{ 
+           text-align: center; 
+           font-size: 3em; 
+		   font-family: Georgia, Times, serif;
+		   padding: 3%;
+		   color: #101a2d
+  } 
+  
+/* Style rules fot navigation area */  
+  nav{
+	  background-color: #1d396d;
+  }
+  
+  nav ul{
+	  margin: 0;
+	  text-align: center;
+  }
+  
+  nav li{
+	  display:inline-block;
+	  font-size: 1.5em;
+	  font-family: Verdana, Arial, snas-serif;
+	  font-weight: bold;
+  }
+  
+  nav li{
+	  display: block;
+	  color: #e3eaf8;
+	  padding: 0.5em 2em;
+	  text-decoration: none;
+  }
+  
+/*Style rules for main content */
+
+  main{
+	 padding: 2%;
+	 font-family: Geneva, Arial, sans-serif;
+	 overflow: auto;
+  }
+  
+	
+	
+  main p{
+	  font-size: 1.25em;
+  }
+	  
+	  
+	  
+  main h3{
+	  padding: 2%;
+	  font-size: 2em;
+  }
+  
+  
+  
+  #group {
+	  width: 45%;
+	  float: right;
+  }
+  
+  .external{
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  /* Style rules for footer content */
+  
+  footer{
+	  text-align: center;
+	  font-size: 0.85em;
+	  background-color:darkgreen;
+	  color: #e3eaf8;
+	  padding: 1% 0%;
+  }
+  
+    footer a {
+		color: #e3eaf8;
+		text-decoration: none;
+    }
+	
+	  
