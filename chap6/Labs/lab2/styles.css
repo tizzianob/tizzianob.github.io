@@ -28,23 +28,24 @@ img{
 }
 @import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora&display=swap');
 /* Style rule for navigation area */
-nav{
+nav {
     background-color: #2a1f14;
 }
-/* Style rule for nav ul */
-nav ul{
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
     text-align: center;
 }
-/*Style rule for nav li */
-nav li{
-    border: 0.5px, #f6eee4;
-    display: block;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
 
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
 }
-nav li{
+
+nav li a {
     display: block;
     color: #f6eee4;
     padding: 0.5em 2em;
