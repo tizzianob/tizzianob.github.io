@@ -80,6 +80,8 @@ a:hover{
 footer{
     height: 10vh;
     width: 100vw;
+    text-align: center;
+    background-color: darkblue;
 }
     
 figure{
