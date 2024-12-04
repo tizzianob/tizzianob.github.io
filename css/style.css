@@ -21,9 +21,11 @@ h3{
     font-family: "Press Start 2P", serif;
     font-weight: 100;
 }
-
-
-
+.personal{
+         font-family: "Press Start 2p" serif;
+         font-weight: 80;
+         color: yellowgreen;
+}
 /* center desining */
 nav{
     background-color: gold;
@@ -80,9 +82,9 @@ a:hover{
 footer{
     height: 10vh;
     width: 100vw;
-    text-align: center;
     background-color: darkblue;
-    text-color: gold;
+    color: gold;
+    text-align: center;
 }
     
 figure{
